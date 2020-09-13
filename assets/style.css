@@ -1,0 +1,19 @@
+.searchResults, .searchColumn {
+    border: 2px solid lightblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.searchColumn {
+    background-color: #e9ecef;
+}
+
+/* .searchResults {
+
+} */
+
+.searchBar {
+    margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Weather Dashboard</h1>
+      <p class="lead">Know before you go.</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <main>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 searchColumn">
+                <h4>Search for a city</h4>
+                <div class="searchBar input-group md-form form-sm form-2 pl-0">
+                    <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                      <button class="btn btn-sm waves-effect input-group-text amber lighten-3" type="submit"><i class="fas fa-search text-grey"
+                          aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <p>~ previously searched ~</p>
+                <div class="previousSearches"></div>
+            </div>
+            <div class="col-sm-8 searchResults">
+                <div class="currentConditions"></div>
+                <div class="forecast"></div>
+            </div>
+        </div>
+     </div>
+    </main>   
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+    
+
+  </body>
+</html>
