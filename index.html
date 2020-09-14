@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <header class="jumbotron">
+    <header>
       <h1 class="display-3">Weather Dashboard</h1>
       <p class="lead">Know before you go.</p>
       <p id="currentDay" class="display-5"></p>
@@ -31,7 +31,7 @@
     <main>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2 searchColumn">
+            <div class="col-sm-3 searchColumn">
                 <h4>Search for a city</h4>
                 <div class="searchBar input-group md-form form-sm form-2 pl-0">
                     <input class="searchField form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
@@ -46,15 +46,9 @@
             <div class="col-sm-8 searchResults">
                 <h4>Current Conditions</h4>
                 <div class="currentConditions"></div>
-                <h4>Forecast</h4>
-                <div class="forecast"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-2">hello</div>
-                        <div class="col-sm-2">hello</div>
-                        <div class="col-sm-2">hello</div>
-                        <div class="col-sm-2">hello</div>
-                        <div class="col-sm-2">hello</div>
+                <h4>5-Day Forecast</h4>
+                <div class="container-fluid">
+                    <div class="row forecast">   
                     </div>
                 </div>
             </div>

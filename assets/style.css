@@ -4,9 +4,16 @@
     padding: 10px;
 }
 
+header, h4 {
+    background-color: lightblue;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
 .searchColumn {
-    background-color: #e9ecef;
-    width: 20%;
+    background-color: lightblue;
+
 }
 
 .currentConditions {
@@ -35,4 +42,10 @@
     background-color: #f52d05;
 }
 
+.col-sm-2 {
+    background-color: lightblue;
+    margin-left: 5px;
+    margin: auto;
+    padding-top: 10px;
+}
 
