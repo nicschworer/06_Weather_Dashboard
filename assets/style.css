@@ -9,10 +9,12 @@ header, h4 {
     margin: auto;
     text-align: center;
     padding: 20px;
+    border-radius: 12px;
 }
 
 .searchColumn {
     background-color: lightblue;
+    border-radius: 20px;
 
 }
 
@@ -24,6 +26,8 @@ header, h4 {
 
 .forecast {
     margin-top: 15px;
+    
+
 }
 
 .searchBar {
@@ -47,5 +51,15 @@ header, h4 {
     margin-left: 5px;
     margin: auto;
     padding-top: 10px;
+    border-radius: 20px;
+}
+
+.psearch {
+    background-color: white;
+    display: block;
+    margin: 10px;
+    border:2px solid darkgrey;
+    border-radius: 12px;
+
 }
 
