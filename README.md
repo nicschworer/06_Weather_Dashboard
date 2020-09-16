@@ -7,9 +7,10 @@ Once you search that city and retrieve the weather data, that information is sho
 
 Here are some photos: 
 1. when you first load the page: 
-
+<img src = "pics/pic1.png" width = 500>
 
 2. when you search a city
-
+<img src = "pics/pic2" width = 500>
 
 3. when you select a previously searched city button
+<img src = "pics/pic3.png" width = 500>
