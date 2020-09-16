@@ -10,7 +10,7 @@ Here are some photos:
 <img src = "pics/pic1.png" width = 500>
 
 2. when you search a city
-<img src = "pics/pic2" width = 500>
+<img src = "pics/pic2.png" width = 500>
 
 3. when you select a previously searched city button
 <img src = "pics/pic3.png" width = 500>
