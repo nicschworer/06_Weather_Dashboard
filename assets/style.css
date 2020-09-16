@@ -46,12 +46,13 @@ header, h4 {
     background-color: #f52d05;
 }
 
-.col-sm-2 {
+.col-lg-2 {
     background-color: lightblue;
-    margin-left: 5px;
     margin: auto;
+    margin-top: 10px;
     padding-top: 10px;
     border-radius: 20px;
+    align-items: center;
 }
 
 .psearch {
